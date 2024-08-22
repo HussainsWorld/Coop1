@@ -1,80 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Co-op Experience</title>
+    <title>Hussain Al-Shammari - Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
+            background-color: #f8f9fa;
         }
-        header {
-            background-color: #007acc;
-            color: white;
-            padding: 20px 0;
-            text-align: center;
-        }
-        main {
-            padding: 20px;
-            max-width: 800px;
-            margin: 20px auto;
-            background-color: white;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        h1 {
-            color: #007acc;
-        }
-        section {
+
+        .navbar {
             margin-bottom: 20px;
         }
-        footer {
-            text-align: center;
-            padding: 10px;
-            background-color: #007acc;
+
+        .jumbotron {
+            background-color: #007bff;
             color: white;
+            padding: 50px 25px;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
         }
     </style>
 </head>
+
 <body>
-    <header>
-        <h1>My Co-op Experience</h1>
-    </header>
-    <main>
-        <section>
-            <h2>Introduction</h2>
-            <p>During my co-op term, I had the opportunity to work on various projects that enhanced my skills and knowledge in my field of study. Below are the highlights of my experience.</p>
-        </section>
-
-        <section>
-            <h2>Projects</h2>
-            <ul>
-                <li><strong>Project 1:</strong> Developed Python scripts using pandas and numpy to automate the comparison of room lists across different semesters, achieving 100% data accuracy.</li>
-                <li><strong>Project 2:</strong> Utilized Java Apache POI to identify and correct incorrect instructor IDs by cross-referencing LDAP information, ensuring database accuracy.</li>
-                <!-- Add more projects as needed -->
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Hussain Al-Shammari</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="work-term-report.html">Work Term Report</a>
+                </li>
             </ul>
-        </section>
+        </div>
+    </nav>
 
-        <section>
-            <h2>Skills Gained</h2>
-            <ul>
-                <li>Python scripting and data manipulation with pandas and numpy</li>
-                <li>Java programming with Apache POI for Excel processing</li>
-                <li>Database management and data integrity assurance</li>
-                <!-- Add more skills as needed -->
-            </ul>
-        </section>
+    <!-- Jumbotron / Welcome Section -->
+    <div class="jumbotron">
+        <h1 class="display-4">Welcome to My Portfolio</h1>
+        <p class="lead">I’m Hussain Al-Shammari, and this is a showcase of my work and experiences.</p>
+        <hr class="my-4">
+        <p>Explore my work term report and other projects.</p>
+        <a class="btn btn-light btn-lg" href="work-term-report.html" role="button">View Work Term Report</a>
+    </div>
 
-        <section>
-            <h2>Conclusion</h2>
-            <p>This co-op term was instrumental in refining my technical abilities and provided me with valuable hands-on experience. I am eager to apply these skills in future projects and professional endeavors.</p>
-        </section>
-    </main>
     <footer>
-        <p>&copy; 2024 Your Name</p>
+        <p>&copy; 2024 Hussain</p>
     </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
+
 </html>
